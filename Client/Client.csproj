@@ -11,4 +11,54 @@
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.9" PrivateAssets="all"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Remove="Shared\NavMenu.razor" />
+      <Content Remove="Shared\SurveyPrompt.razor" />
+      <Content Remove="Shared\**" />
+      <Content Remove="wwwroot\css\bootstrap\**" />
+      <Content Remove="wwwroot\css\open-iconic\**" />
+      <Content Remove="wwwroot\sample-data\**" />
+      <Content Remove="Pages\Counter.razor" />
+      <Content Remove="Pages\FetchData.razor" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Shared\**" />
+      <Compile Remove="wwwroot\css\bootstrap\**" />
+      <Compile Remove="wwwroot\css\open-iconic\**" />
+      <Compile Remove="wwwroot\sample-data\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Shared\**" />
+      <EmbeddedResource Remove="wwwroot\css\bootstrap\**" />
+      <EmbeddedResource Remove="wwwroot\css\open-iconic\**" />
+      <EmbeddedResource Remove="wwwroot\sample-data\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Shared\**" />
+      <None Remove="wwwroot\css\bootstrap\**" />
+      <None Remove="wwwroot\css\open-iconic\**" />
+      <None Remove="wwwroot\sample-data\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Shared\NavMenu.razor" />
+      <_ContentIncludedByDefault Remove="Shared\SurveyPrompt.razor" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\bootstrap\bootstrap.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\bootstrap\bootstrap.min.css.map" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\open-iconic\FONT-LICENSE" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\open-iconic\font\fonts\open-iconic.eot" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\open-iconic\font\fonts\open-iconic.otf" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\open-iconic\font\fonts\open-iconic.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\open-iconic\font\fonts\open-iconic.ttf" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\open-iconic\font\fonts\open-iconic.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\open-iconic\ICON-LICENSE" />
+      <_ContentIncludedByDefault Remove="wwwroot\css\open-iconic\README.md" />
+      <_ContentIncludedByDefault Remove="wwwroot\sample-data\weather.json" />
+    </ItemGroup>
+
+
 </Project>
